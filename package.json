@@ -1,0 +1,22 @@
+{
+  "name": "peachyscript",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alshdavid/crayon"
+  },
+  "scripts": {
+    "build": "npm run clean && npx tsc && cp package.json ./dist",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "peachyscript": "^1.0.2"
+  }
+}
