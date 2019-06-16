@@ -1,11 +1,11 @@
 {
   "name": "peachyscript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alshdavid/crayon"
+    "url": "https://github.com/alshdavid/peachyscript"
   },
   "scripts": {
     "build": "npm run clean && npx tsc && cp package.json ./dist",
